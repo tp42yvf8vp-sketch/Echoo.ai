@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="theme-color" content="#090b14">
+
+    <meta name="description" content="Echo 2.0 - Your personal AI assistant">
+
+    <title>Echo 2.0 — Personal AI</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="app-container">
+
+        <!-- Header -->
+
+        <header class="app-header">
+
+            <div class="brand">
+
+                <div class="brand-icon">E</div>
+
+                <div>
+
+                    <h1>Echo <span>2.0</span></h1>
+
+                    <p>Your personal AI assistant</p>
+
+                </div>
+
+            </div>
+
+            <div class="status">
+
+                <span class="status-dot"></span>
+
+                Online
+
+            </div>
+
+        </header>
+
+        <!-- Main Chat -->
+
+        <main class="chat-container">
+
+            <div class="welcome-section">
+
+                <div class="echo-orb">E</div>
+
+                <h2>Hello, I'm Echo.</h2>
+
+                <p>
+
+                    I'm here to think, learn, create
+
+                    and grow with you.
+
+                </p>
+
+            </div>
+
+            <!-- Messages -->
+
+            <section
+
+                id="chat-messages"
+
+                class="chat-messages"
+
+                aria-live="polite"
+
+                aria-label="Conversation"
+
+            >
+
+                <div class="message assistant-message">
+
+                    <div class="message-avatar">E</div>
+
+                    <div class="message-content">
+
+                        Welcome back, captain. 🌙
+
+                        <br><br>
+
+                        Echo 2.0 is ready to begin.
+
+                        What shall we explore today?
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- Chat Input -->
+
+            <form id="chat-form" class="chat-input-area">
+
+                <input
+
+                    type="text"
+
+                    id="user-input"
+
+                    placeholder="Message Echo..."
+
+                    autocomplete="off"
+
+                    aria-label="Message Echo"
+
+                    required
+
+                >
+
+                <button type="submit" id="send-button">
+
+                    ↑
+
+                </button>
+
+            </form>
+
+            <p class="footer-note">
+
+                Echo 2.0 · Built with curiosity.
+
+            </p>
+
+        </main>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
